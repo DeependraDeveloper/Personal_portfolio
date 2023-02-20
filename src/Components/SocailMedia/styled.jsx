@@ -4,10 +4,6 @@ export const Container = styled.nav`
   display: flex;
   justify-content: space-between; 
   align-items: center;
-  padding: 20px;
-`;
-
-export const Logo = styled.img`
-    width: 180px;
-    height:65px;
+  gap:10px;
+  cursor: pointer;
 `;
