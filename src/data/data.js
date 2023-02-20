@@ -97,5 +97,62 @@ export const data = {
       img: "https://img.icons8.com/color/48/000000/react-native.png",
       level: "85%",
     },
-  ]
+    {
+      id: 5,
+      tech: "HTML",
+      img: "https://img.icons8.com/color/48/000000/html.png",
+      level: "90%",
+    },
+    {
+      id: 6,
+      tech: "CSS",
+      img: "https://img.icons8.com/color/48/000000/css.png",
+      level: "85%",
+    },
+  ],
+  jobDescriptions:[
+    {
+      id:1,
+      designation:"Lead Backend Developer",
+      company:"Nextaverse",
+      year:2023,
+    },
+    {
+      id:2,
+      designation:"Backend Developer Trainee",
+      company:"FunctionUp",
+      year:2022,
+    },
+    {
+      id:3,
+      designation:"Bsc Computer Science",
+      company:"Acharaya institute of technology",
+      year:2021,
+    }
+  ],
+
+  projects: [
+    {
+      id: 1,
+      title: "Url Shortner",
+      category:  "NodeJS,ExpressJS,MongoDB",
+      image:
+        "https://plus.unsplash.com/premium_photo-1664201890375-f8fa405cdb7d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8b25saW5lJTIwc3RvcmV8ZW58MHx8MHx8&auto=format&fit=crop&w=1400&q=60",
+    },
+    {
+      id: 2,
+      title: "Amazon Clone",
+      category: "NodeJS,ExpressJS,MongoDB",
+      image:
+        "https://images.unsplash.com/photo-1498050108023-c5249f4df085?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8d2ViJTIwZGV2ZWxvcG1lbnR8ZW58MHx8MHx8&auto=format&fit=crop&w=1400&q=60",
+    },
+    {
+      id: 3,
+      title: "Nextaverse webiste",
+      category: "html,css,js",
+      image:
+        "https://images.unsplash.com/photo-1593720213428-28a5b9e94613?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8d2ViJTIwZGV2ZWxvcG1lbnR8ZW58MHx8MHx8&auto=format&fit=crop&w=1400&q=60",
+    },
+  ],
+
 };

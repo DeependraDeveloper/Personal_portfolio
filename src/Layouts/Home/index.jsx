@@ -1,9 +1,12 @@
 import React from "react";
+import Contact from "../../Components/Contact";
 import HeadLine from "../../Components/Headline";
 import Nav from "../../Components/Nav";
 import Section from "../../Components/Section";
 import About from "./modules/About";
 import Client from "./modules/Clients";
+import Experince from "./modules/Expriences";
+import Project from "./modules/Projects";
 import Skill from "./modules/Skills";
 import { Container } from "./styled";
 
@@ -19,15 +22,21 @@ function Home() {
         <Client />
       </Section>
 
-      <Section heading="skills">
+      <Section heading="Skills">
         <Skill/>
       </Section>
 
-      <Section heading="experience"></Section>
+      <Section heading="Education & Experience">
+        <Experince />
+      </Section>
 
-      <Section heading="projects"></Section>
+      <Section heading="Projects">
+          <Project />
+      </Section>
 
-      <Section heading="contact"></Section>
+      <Section heading="contact">
+        <Contact/>
+      </Section>
     </Container>
   );
 }
